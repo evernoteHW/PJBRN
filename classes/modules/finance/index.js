@@ -4,7 +4,8 @@ import {
   StyleSheet,
   Text,
   View,
-  TabBarIOS
+  TabBarIOS,
+  FlatList
 } from 'react-native';
 
 export default class Finance extends Component {
@@ -26,7 +27,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#888888',
+    backgroundColor: '#888889',
   },
   welcome: {
     fontSize: 20,
